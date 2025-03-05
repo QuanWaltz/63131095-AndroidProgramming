@@ -25,9 +25,51 @@ public class MainActivity extends AppCompatActivity {
         double a = Double.parseDouble(editNumA.getText().toString());
         double b = Double.parseDouble(editNumB.getText().toString());
 
-        double tong = a + b;
+        double sum = a + b;
 
-        editSum.setText(String.valueOf(tong));
+        editSum.setText(String.valueOf(sum));
+
+    }
+
+    public void doProduct(View view){
+        EditText editNumA = findViewById(R.id.editNumA);
+        EditText editNumB = findViewById(R.id.editNumB);
+        EditText editSum = findViewById(R.id.editSum);
+
+        double a = Double.parseDouble(editNumA.getText().toString());
+        double b = Double.parseDouble(editNumB.getText().toString());
+
+        double product = a * b;
+
+        editSum.setText(String.valueOf(product));
+
+    }
+
+    public void doDiff(View view){
+        EditText editNumA = findViewById(R.id.editNumA);
+        EditText editNumB = findViewById(R.id.editNumB);
+        EditText editSum = findViewById(R.id.editSum);
+
+        double a = Double.parseDouble(editNumA.getText().toString());
+        double b = Double.parseDouble(editNumB.getText().toString());
+
+        double diff = a - b;
+
+        editSum.setText(String.valueOf(diff));
+
+    }
+
+    public void doQuotient(View view){
+        EditText editNumA = findViewById(R.id.editNumA);
+        EditText editNumB = findViewById(R.id.editNumB);
+        EditText editSum = findViewById(R.id.editSum);
+
+        double a = Double.parseDouble(editNumA.getText().toString());
+        double b = Double.parseDouble(editNumB.getText().toString());
+
+        double quotient = a / b;
+
+        editSum.setText(String.valueOf(quotient));
 
     }
 }
