@@ -7,26 +7,27 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     EditText editA, editB, editResult;
+    void findControl(){
+        editA = (EditText) findViewById(R.id.editA);
+        editB = (EditText) findViewById(R.id.editB);
+        editResult = (EditText) findViewById(R.id.editResult);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+        findControl();
     }
-    public void calcSum(View v){
+    public void calcAdd(View v){
         double a = Double.parseDouble(editA.getText().toString());
         double b = Double.parseDouble(editB.getText().toString());
-        double add = a + b;
-        editResult.setText(String.valueOf(add));
+        double sum = a + b;
+        editResult.setText(String.valueOf(sum));
     }
     public void calcSub(View v){
         double a = Double.parseDouble(editA.getText().toString());

@@ -56,28 +56,28 @@
             android:layout_margin="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="XuLyCong"
+            android:onClick="calcAdd"
             android:text="+"></Button>
         <Button
             android:id="@+id/subButton"
             android:layout_margin="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="XuLyTru"
+            android:onClick="calcSub"
             android:text="-"></Button>
         <Button
             android:id="@+id/multiButton"
             android:layout_margin="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="XuLyNhan"
+            android:onClick="calcMul"
             android:text="*"></Button>
         <Button
             android:id="@+id/divButton"
             android:layout_margin="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="XuLyChia"
+            android:onClick="calcDiv"
             android:text="/"></Button>
     </LinearLayout>
     <LinearLayout
@@ -101,4 +101,4 @@
     </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
