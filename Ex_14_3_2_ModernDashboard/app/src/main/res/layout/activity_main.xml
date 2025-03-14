@@ -22,7 +22,6 @@
             android:textColor="@color/lavender"
             android:layout_marginStart="18dp"
             android:layout_marginTop="40dp"
-            android:fontFamily="@font/poppins_semibold"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/hakoImage"/>
@@ -81,7 +80,6 @@
                         android:text="Clock"
                         android:textSize="20sp"
                         android:textColor="@color/lavender"
-                        android:fontFamily="@font/poppins_semibold"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/clockImage"/>
@@ -116,7 +114,6 @@
                         android:text="Calendar"
                         android:textSize="20sp"
                         android:textColor="@color/lavender"
-                        android:fontFamily="@font/poppins_semibold"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/calendarImage"/>
@@ -164,7 +161,6 @@
                         android:text="Mail"
                         android:textSize="20sp"
                         android:textColor="@color/lavender"
-                        android:fontFamily="@font/poppins_semibold"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/mailImage"/>
@@ -199,7 +195,6 @@
                         android:text="calculator"
                         android:textSize="20sp"
                         android:textColor="@color/lavender"
-                        android:fontFamily="@font/poppins_semibold"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/calculatorImage"/>
@@ -247,7 +242,6 @@
                         android:text="Game"
                         android:textSize="20sp"
                         android:textColor="@color/lavender"
-                        android:fontFamily="@font/poppins_semibold"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/gameImage"/>
@@ -282,7 +276,6 @@
                         android:text="camera"
                         android:textSize="20sp"
                         android:textColor="@color/lavender"
-                        android:fontFamily="@font/poppins_semibold"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/cameraImage"/>
