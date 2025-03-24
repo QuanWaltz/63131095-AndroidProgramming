@@ -32,7 +32,7 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
