@@ -18,17 +18,17 @@
         app:srcCompat="@drawable/logo50nam" />
 
     <Button
-        android:id="@+id/btnActivity1"
+        android:id="@+id/btnActivity2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="340dp"
-        android:text="Chức năng 1"
+        android:text="Chức năng 2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnActivity2"
+        android:id="@+id/btnActivity3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="340dp"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnActivity3"
+        android:id="@+id/btnActivity4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
