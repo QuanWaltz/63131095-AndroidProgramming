@@ -50,7 +50,7 @@
     <Button
         android:id="@+id/btnActivityAboutMe"
         android:layout_width="128dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="268dp"
         android:text="About Me"
